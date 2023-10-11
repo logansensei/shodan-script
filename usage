@@ -1,0 +1,57 @@
+Certainly! Below is an example of a README file for your script:
+
+---
+
+# Shodan Search Script
+
+## Overview
+
+This script allows you to perform searches on Shodan, a popular search engine for internet-connected devices. It rotates through multiple API keys and uses different user-agents to avoid hitting rate limits or getting blocked.
+
+## Prerequisites
+
+- Python 3.x
+- Shodan API Key(s)
+- Internet connection
+
+## Usage
+
+1. Clone the repository or download the script file.
+2. Install the required libraries using `pip install shodan`.
+3. Run the script using Python: `python shodan_search.py`.
+4. Follow the prompts to enter the search query and API keys.
+
+## Examples
+
+Here are some example queries you can try:
+
+1. Search for Apache servers:
+   - Query: `apache`
+
+2. Find Nginx servers:
+   - Query: `nginx`
+
+3. Search for Windows servers:
+   - Query: `Microsoft Windows`
+
+4. Look for Linux servers:
+   - Query: `Linux`
+
+5. Find IoT devices:
+   - Query: `IoT`
+
+## Adding Additional User Agents
+
+If you want to add more user agents, open the script file and update the `get_random_user_agent()` function with additional user agent strings.
+
+## Adding More API Keys
+
+To add more API keys, simply provide them when prompted. The script will cycle through all the keys provided.
+
+---
+
+Make sure to replace `<example-query>` with actual examples and update any placeholders with specific information relevant to your script.
+
+This README provides a basic overview of how to use the script, what it does, and how to add additional API keys or user agents.
+
+Feel free to customize it further based on your specific needs or preferences!
